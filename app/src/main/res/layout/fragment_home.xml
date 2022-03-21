@@ -154,7 +154,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="JDBC"
+                    android:text="MySQL with JDBC"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textColor="@color/dimgrey"
@@ -194,7 +194,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Question/Ans."
+                    android:text="Questions/Ans."
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textColor="@color/dimgrey"

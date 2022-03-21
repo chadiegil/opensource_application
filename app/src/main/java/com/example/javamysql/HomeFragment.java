@@ -75,6 +75,25 @@ public class HomeFragment extends Fragment {
 
             }
         });
+
+       ImageView jdbc = view.findViewById(R.id.jdbc);
+       jdbc.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent = new Intent(getActivity(), Jdbc.class);
+               startActivity(intent);
+           }
+       });
+
+        ImageView quest = view.findViewById(R.id.quest);
+        quest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), QuestAnswer.class);
+                startActivity(intent);
+            }
+        });
+
         return view;
 
     }
