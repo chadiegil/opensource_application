@@ -15,7 +15,7 @@
         android:layout_height="60dp"
         android:background="@color/dimgrey"
         android:elevation="4dp"
-        app:title="Learn JDBC"
+        app:title="Learn MySQL/JDBC"
         app:titleTextColor="@color/white"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -25,8 +25,9 @@
             android:id="@+id/logo"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/log"
             android:layout_gravity="right"
+            android:layout_marginRight="15dp"
             android:elevation="8dp"
             />
 
@@ -224,6 +225,8 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"
             android:src="@drawable/back"
             android:elevation="8dp"/>
 
